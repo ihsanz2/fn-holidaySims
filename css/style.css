@@ -1,0 +1,283 @@
+h3,
+h5,
+h6 {
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+  line-height: 130% !important;
+}
+
+.hide-on-med-and-down {
+  padding-right: 30px;
+}
+
+/* ======================================Logo */
+.brand-logo {
+  margin-top: 0.5%;
+  margin-left: 2.5%;
+}
+.brand-logo img {
+  padding-top: 5px;
+  padding-bottom: 5px !important;
+  height: 50px;
+  width: 83px;
+}
+
+.about img {
+  height: 80%;
+  width: 90%;
+}
+
+.about-img {
+  padding-top: 15%;
+}
+nav ul a .in_img {
+  padding: 0 20px !important;
+}
+img#img_in {
+  margin-top: 17px;
+  float: right;
+  height: 30px;
+  width: 30px;
+
+  overflow: hidden;
+}
+
+#in_tentang {
+  margin-top: 40px;
+}
+
+/*======================================== benefit */
+
+.benefit h3 {
+  /* padding-top: 2%; */
+}
+
+.row.benefit {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+.col.m6.s12.white-text.text-darken-3.kiri {
+  padding: 0 10% !important;
+}
+
+.col.m6.s12.white-text.text-darken-3.kanan {
+  padding: 0 10% !important;
+}
+
+.collection {
+  width: 65%;
+  margin-left: 16%;
+}
+
+.modal-europe {
+  margin-left: 16%;
+}
+
+.collection {
+  height: 292px;
+}
+
+.collection.collapsible.erope {
+  height: 292px;
+}
+
+.collapsible-header:hover {
+  color: red;
+}
+
+.collection-item.europe {
+  padding: 0;
+  margin: 0;
+}
+
+.collection-item.europe p {
+  text-align: center;
+  margin: 4px 0;
+}
+#p-korea {
+  padding-left: 0px;
+  margin: 4px;
+}
+
+/*================================================ buy */
+.buy h4 {
+  padding-top: 20px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.row-buy {
+  padding-bottom: 15px;
+}
+
+.purcase-toped img {
+  filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+}
+
+.purcase-shopee img {
+  filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+}
+
+.purcase-bukalapak img {
+  filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+  padding-top: 40px;
+  padding-left: 50px;
+}
+.purcase-mcash img {
+  filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.9));
+  padding-top: 30px;
+}
+
+.btn {
+  margin-top: 4.5% !important;
+}
+
+.circle.responsive-img {
+  height: 80px;
+  width: 80px;
+}
+
+.bawah p {
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.media {
+  padding-top: 57px;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+/* .media .col {
+  height: 50px !important;
+} */
+.office {
+  padding-left: 60px;
+}
+
+.media p {
+  font-size: 12px;
+  padding-bottom: 5px !important;
+}
+
+#contact h4 {
+  padding-left: 4%;
+}
+
+.caption.right-align.europe h3 {
+  padding-top: 30%;
+}
+.caption.center-align.makah h3 {
+  padding-top: 15%;
+}
+
+.section-testimonial .row {
+  margin: 0px;
+}
+
+.carousel-item p {
+  font-weight: 500;
+}
+
+#testimonial {
+  max-height: 380px;
+  overflow: hidden;
+}
+/* .sosmed {
+  color: white;
+  cursor: pointer;
+}
+.sosmed:hover {
+  color: rgb(0, 0, 7);
+  transition: 0.5s;
+} */
+.sosmed a {
+  color: white;
+}
+.sosmed a:hover {
+  color: black;
+}
+/*======================================= small screen */
+@media only screen and (max-width: 600px) {
+  .brand-logo {
+    margin-top: 0.5%;
+    margin-left: 0 !important;
+  }
+  .btn {
+    margin-top: 13px !important;
+  }
+  .ig {
+    padding-bottom: 3px !important;
+  }
+  .wa {
+    padding-bottom: 3px !important;
+  }
+
+  .fb {
+    padding-bottom: 3px !important;
+    margin-left: 10px;
+  }
+
+  .caption.right-align.korea {
+    margin-bottom: 200px !important;
+  }
+  .caption.right-align.europe h3 {
+    padding-top: 200px !important;
+  }
+  .caption.center-align.makah h3 {
+    padding-top: 150px !important;
+  }
+
+  #p-korea {
+    padding-left: 0px;
+  }
+
+  .row-buy {
+    padding-bottom: 30px;
+  }
+
+  .buy h4 {
+    padding-top: 40px;
+  }
+
+  .purcase-toped img {
+    filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+    padding-top: 20px;
+  }
+
+  .purcase-shopee img {
+    filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+    padding-top: 20px;
+  }
+
+  .purcase-bukalapak img {
+    filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+    padding-top: 40px;
+    width: 180px;
+    height: 80px;
+    padding-left: 0 !important;
+  }
+
+  .purcase-mcash img {
+    filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.9));
+    padding-top: 20px;
+  }
+  .media {
+    /* padding-top: 45px; */
+    margin-left: 0px;
+  }
+  .office {
+    padding-left: 0px;
+  }
+  img#img_in {
+    margin-top: 17px;
+    margin-right: 200px;
+    float: right;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 700px) {
+}
+.collection {
+}
