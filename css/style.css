@@ -22,6 +22,8 @@ h6 {
   width: 83px;
 }
 
+#about {
+}
 .about img {
   height: 80%;
   width: 90%;
@@ -124,7 +126,10 @@ img#img_in {
 }
 .purcase-mcash img {
   filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.9));
-  padding-top: 30px;
+  margin-top: 24px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 2px; */
+  max-height: 60px;
 }
 
 .btn {
@@ -266,7 +271,8 @@ img#img_in {
 
   .purcase-mcash img {
     filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.9));
-    padding-top: 20px;
+    /* padding-top: 10px; */
+    max-height: 60px;
   }
   .media {
     /* padding-top: 45px; */
